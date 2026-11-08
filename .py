@@ -37,5 +37,4 @@ if age>=21 or age>=18 and (show_time!='Evening' and is_member):
    final_prices=base_price + extra_charges + service_charges - discount
    print('Final price of ticket:',final_prices)
 else:
-   print('ticket bookking failed due to restrictions')
-   
+   print('ticket booking failed due to restrictions')
